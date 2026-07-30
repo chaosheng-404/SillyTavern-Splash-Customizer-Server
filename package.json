@@ -1,0 +1,11 @@
+{
+    "name": "sillytavern-splash-customizer-server",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.cjs",
+    "type": "commonjs",
+    "scripts": {
+        "configure": "node install.cjs"
+    },
+    "homepage": "https://github.com/chaosheng-404/SillyTavern-Splash-Customizer-Server"
+}
