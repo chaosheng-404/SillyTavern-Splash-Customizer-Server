@@ -18,6 +18,8 @@
 node plugins.js install https://github.com/chaosheng-404/SillyTavern-Splash-Customizer-Server && node plugins/SillyTavern-Splash-Customizer-Server/install.cjs
 ```
 
+这条单行命令适用于 Termux、Linux、macOS、Windows CMD、PowerShell 7 和 Windows Terminal。旧版 Windows PowerShell 5 请使用下方的分步安装命令。
+
 安装脚本会：
 
 1. 验证当前目录确实是 SillyTavern。
@@ -26,6 +28,8 @@ node plugins.js install https://github.com/chaosheng-404/SillyTavern-Splash-Cust
 4. 启用 `enableServerPluginsAutoUpdate: true`。
 
 完成后重启 SillyTavern。
+
+电脑端与手机 Termux 的完整图文式步骤、使用方法和常见问题请查看[前端扩展 README](https://github.com/chaosheng-404/SillyTavern-Splash-Customizer#安装前准备)。
 
 ## 分步安装
 
